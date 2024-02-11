@@ -269,7 +269,7 @@ body {
   height: 650px;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px black;
+  box-shadow: 2px 2px 4px rgb(216, 216, 216);
 }
 .content-news-vdo .content-top-vdo {
   width: 100%;
@@ -371,36 +371,36 @@ body {
 .komsan-container {
   width: 75%;
   height: 400px;
-  margin: auto;
-  margin-top: 50px;
+  margin: 50px auto;
+  margin-bottom: 100px;
 }
-.komsan-container .content-title{
-  border-bottom:3px solid #fc45ff;
+.komsan-container .content-title {
+  border-bottom: 3px solid #fa5480;
 }
-.komsan-container .content-title .title{
-  background-color: #fc45ff;
+.komsan-container .content-title .title {
+  background-color: #fa5480;
 }
-.content-news-komsan{
+.content-news-komsan {
   width: 100%;
   height: 100%;
-  padding:20px 5px 20px 20px;
+  padding: 20px 5px 20px 20px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 2px 2px 4px black;
+  box-shadow: 2px 2px 4px rgb(222, 222, 222);
 }
-.content-news-komsan .left-content-news{
+.content-news-komsan .left-content-news {
   width: 33%;
-  height: 100%;  
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
-.content-news-komsan .left-content-news .pic{
+.content-news-komsan .left-content-news .pic {
   width: 100%;
   height: 60%;
 }
-.content-news-komsan .left-content-news .pic img{
+.content-news-komsan .left-content-news .pic img {
   width: 100%;
   height: 100%;
   background-position: center;
@@ -409,35 +409,35 @@ body {
   object-fit: cover;
   border-top: 4px solid black;
 }
-.content-news-komsan .left-content-news .des{
+.content-news-komsan .left-content-news .des {
   width: 100%;
-  height:40%;
+  height: 40%;
   border-top: 4px solid black;
-  background-color: #fc45ff;
+  background-color: #fa5480;
 }
-.content-news-komsan .left-content-news .des p{
+.content-news-komsan .left-content-news .des p {
   font-size: 24px;
   font-weight: bold;
   margin: 10px;
-  color:#fff;
+  color: #fff;
   line-height: 35px;
 }
-.content-news-komsan .right-content-news{
+.content-news-komsan .right-content-news {
   width: 62%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.content-news-komsan .right-content-news .small-news{
+.content-news-komsan .right-content-news .small-news {
   width: 24%;
   height: 50%;
 }
-.content-news-komsan .right-content-news .small-news .pic-news{
+.content-news-komsan .right-content-news .small-news .pic-news {
   width: 100%;
   height: 50%;
 }
-.content-news-komsan .right-content-news .small-news .pic-news img{
+.content-news-komsan .right-content-news .small-news .pic-news img {
   width: 100%;
   height: 100%;
   background-position: center;
@@ -447,17 +447,17 @@ body {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-.content-news-komsan .right-content-news .small-news .des-news{
+.content-news-komsan .right-content-news .small-news .des-news {
   width: 100%;
   height: 50%;
   box-sizing: border-box;
   overflow: hidden;
 }
-.content-news-komsan .right-content-news .small-news .des-news p{
+.content-news-komsan .right-content-news .small-news .des-news p {
   font-size: 13px;
   margin-top: 1px;
 }
-.content-news-komsan .button{
+.content-news-komsan .button {
   width: 1%;
   height: 100%;
   display: flex;
@@ -465,11 +465,72 @@ body {
   align-items: center;
   margin-right: 5px;
 }
-.content-news-komsan .button p{
-  color:#fc45ff;
+.content-news-komsan .button p {
+  color: #fa5480;
   font-size: 40px;
   font-weight: bold;
 }
-img:hover{
+img:hover {
   transform: scale(95%);
+}
+/* ----------------------------------------------------------- */
+/* ----------- Footer ---------- */
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  overflow: hidden;
+}
+.footer .container {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .container .left {
+  width: calc(80% / 3);
+  height: 100%;
+}
+.footer .container .left .logo img {
+  width: 150px;
+}
+.footer .container .left .des {
+  color: rgb(141, 141, 141);
+  line-height: 15px;
+}
+.footer .container .left .des p:nth-child(4) {
+  line-height: 25px;
+}
+.footer .container .left .des p:nth-child(3) {
+  color: white;
+  font-size: 17px;
+}
+.footer .container .center {
+  width: calc(130% / 3);
+  height: 100%;
+}
+.footer .container .center h2 {
+  color: rgb(143, 143, 143);
+}
+.footer .container .center p {
+  color: rgb(143, 143, 143);
+}
+.footer .container .center .icon ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer .container .center .icon ul li {
+  list-style: none;
+}
+.footer .container .center .icon ul li a {
+  color: rgb(139, 139, 139);
+  font-size: 25px;
+}
+.footer .container .right {
+  width: calc(80% / 3);
+  height: 100%;
+  background-color: #38c378;
 }
